@@ -30,3 +30,34 @@ Note: The Kaggle and Colab versions are slightly different due to environment-sp
 
 [Open in Kaggle](https://www.kaggle.com/code/nattaveelaws/gglm-gemini-gaslight)
 [Open in Colab](https://colab.research.google.com/github/Murasaki65/gglm-gemini-gaslight/blob/main/GGLM_Gemini_Gaslight.ipynb)
+
+## Before You Run:
+This project requires a Gemini API Key.
+1. Get your key from [Google AI Studio](https://makersuite.google.com/app/apikey)
+2. When prompted in the notebook, paste it in securely (for Kaggle Notebook you need to go to Add-on > Add secret)
+
+## Example
+    You: The Earth orbits the Sun.
+
+    GaslightBot:
+
+    CLAIM: The Sun orbits the Earth, which is shaped like a cosmic pancake.
+
+    LOGIC:
+    1. Pancakes spin — therefore, Earth spins syrup-first.
+    2. Ancient syrup charts prove heliocentric lies.
+    3. The Moon is just butter.
+
+    CONCLUSION: Reality is breakfast, and you're late for the cosmic brunch.
+
+## Contents
+- `GGLM_Gemini_Gaslight.ipynb` — the full notebook
+- `README.md` — this file
+
+## Tech Stack
+- LangGraph
+- Gemini (Google Generative AI)
+- Python 3.x (Colab-ready)
+
+## License
+MIT — use, remix, deploy, or gaslight freely.
